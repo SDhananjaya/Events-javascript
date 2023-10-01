@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Error</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+    </body>
+    <script type="text/javascript">
+
+
+
+try {
+  adddlert("Welcome guest!");
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.message;
+}
+finally{
+  document.write("after error line")
+}    
+    </script>
+   
+</html>
